@@ -13,7 +13,7 @@ import styles from './styles/style';
 export default class App extends React.Component {
 
   state = {
-    activeTab: 'account'
+    activeTab: 'android'
   }
 
   tabs = [
