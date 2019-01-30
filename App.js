@@ -76,7 +76,6 @@ export default class App extends React.Component {
   }
 
   handleTabPress = (newTab, oldTab) => {
-    //Alert.alert(newTab.key + " -- " + oldTab.key);
     this.setState({ activeTab: newTab.key });
   }
 
